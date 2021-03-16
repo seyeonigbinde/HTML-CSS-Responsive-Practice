@@ -48,7 +48,6 @@ blockquote, q {
 *{
   box-sizing: border-box; 
    max-width:100%; 
-  /* border: 1px solid gray; */
   margin: 0 auto;
 }
 
@@ -81,7 +80,7 @@ section{
   
 }
 
-/* General CSS */
+/* The Header */
 header img{
     width:10%;
 }
@@ -131,6 +130,7 @@ h1{
     padding: 3% 0;
     font-size: 1.8rem;
 }
+/* About */
 #about{
     background-image:url('../images/about-img.jpg');
     height:90vh;
@@ -153,6 +153,7 @@ h1{
     font-size: 3.5rem;
 }
 
+/* Plant */
 .planttitle h2{
     text-align: center;
     color:#266035;
@@ -213,7 +214,7 @@ h1{
     margin: 2% 0;
 
 }
-
+/* Footer */
 footer{
     display: flex;
     justify-content: space-between;
