@@ -48,7 +48,7 @@ blockquote, q {
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   border: 1px solid grey;
+   /* border: 1px solid grey; */
   margin: 0 auto;
 }
 
@@ -171,21 +171,21 @@ h1{
 .plantitems div{
     width:50%;
 }
-.bgimg1{
+.succulent{
     background-image:url('../images/succulants.jpg');
     height:60vh;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
-.bgimg2{
+.cacti{
     background-image:url('../images/cacti.jpg');
     height:50vh;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
-.bgimg3{
+.tropicals{
     background-image:url('../images/tropicals.jpg');
     height:50vh;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ header nav{
 
 .headertext h1{
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin-left: 25%;
     font-size: 6rem;
 }
@@ -300,15 +300,16 @@ header nav{
     display: flex;
     flex-direction: column;
 }
-.bgimg2 .mobile{
+/* .bgimg2 .mobile{
     order:-1;
-}
+} */
 .plantitems div{
     width: 80%;
 }
 .plantitems p{
     width: 90%;
 }
+
 .plantitems button{
     width: 60%;
     padding: 3% 3%;
